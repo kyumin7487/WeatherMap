@@ -30,7 +30,7 @@ function App() {
       <div className='MainTitle'>오늘도 당신의 날씨를 위해</div>
       <div className='appContentWrap'>
         <input className='Search'
-          placeholder='enter the area you want'
+          placeholder='당신이 알고싶은 지역의 이름을 적어주세요'
           value={locatiion}
           onChange={(e)=>setLocation(e.target.value)}
           type='text'
