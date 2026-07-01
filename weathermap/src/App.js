@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 
 function App() {
-  const API_KEY = "6bf6b9fcc70b186f91f2aff88b83dbab";   // 각자 개인의 API KEY를 발급받아 사용해주세요. 내꺼 쓰면 혼나용
+  const API_KEY = "API_KEY";   
   const [locatiion, setLocation] = useState('');
   const url = `https://api.openweathermap.org/data/2.5/weather?q=$(location)&appid=$(API_KEY)`;
   const [result, setResult] = useState({});
